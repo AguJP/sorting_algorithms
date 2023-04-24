@@ -23,7 +23,7 @@ void swap_nodes(listint_t **h, listint_t **n1, listint_t *n2)
 
 
 /**
- * insertion_sort_list: Sort a list in ascending order using insertion sort
+ * insertion_sort_list - Sort a list in ascending order using insertion sort
  * @list: Doubly linked list of items to be sorted
  * Description: Sort list in ascending order, printing the list after each swap
  */
