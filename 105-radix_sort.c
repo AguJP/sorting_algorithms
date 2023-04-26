@@ -72,14 +72,12 @@ unsigned int count_sort(int *array, size_t size, unsigned int digit)
  * @array: array to sort
  * @size: size of the array
  *
+ * Description: The first for loop is used to determine the
+ *              number of passes required to sort the array
+ *              The second for loop is used to perform the sorting.
+ *              The third for loop is used to print the sorted array.
  * Return: void
  */
-
-/**
-1. The first for loop is used to determine the number of passes required to sort the array.
-2. The second for loop is used to perform the sorting.
-3. The third for loop is used to print the sorted array.
-*/
 void radix_sort(int *array, size_t size)
 {
 	unsigned int i, sort = 1;
